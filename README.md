@@ -1,18 +1,19 @@
-The HMM system demonstrated its effectiveness in capturing common fingering patterns by initial testing on piano scales and comprehensive testing on the PIG dataset.  It shows robustness in handling monophonic phrases with single-note sequences.  Nevertheless, the need for improvement on advanced piano pieces involving multiple layering has been highlighted. 
+## Objectives
+The HMM system demonstrated its effectiveness in capturing common fingering patterns by initial testing on piano scales and comprehensive testing on the PIG dataset. It shows robustness in handling monophonic phrases with single-note segments. Nevertheless, the need for improvement on advanced piano pieces was highlighted.
 
-Qualitative evaluation from professional piano teacher Miss Margaret To confirm that the generated fingerings are generally feasible and comfortable, especially for more manageable pieces such as Für Elise.  However, complex pieces, including some advanced sonatas, were identified as unoptimized suggested fingers. 
+Qualitative evaluation from professional piano teacher Miss Margaret confirmed that the generated fingerings are generally favorable and comfortable, especially for more manageable pieces such as Für Elise. However, complex pieces, including sonatas and concertos, were identified as unoptimized suggested fingerings.
 
-This project shows the feasibility of solving the piano fingering problem using HMM.  With further improvements, there is potential for real-world applications in music education as a valuable tool for enhancing the piano learning experience.  
+This project shows the feasibility of solving the piano fingering problem using HMM. With further improvements, there is potential for real-world applications in music education as a valuable tool for enhancing the piano learning experience.
 
-**User Input**
-Users can input piano pieces in MIDI (.mid) or MusicXML (.mxl) format. 
-**Why MIDI:**  For people who are interested in music production virtually. 
-**Why MusicXML:**  Mainly for rendering the score preview and for music apps.
-Users can select their hand span size through a simple graphical user interface.
+## User Input
+- Users can input piano pieces in MIDI (.mid) or MusicXML (.xml) format.
+  - **Why MIDI:** For interfacing with electronic musical instruments.
+  - **Why MusicXML:** Mainly for rendering the score into production virtually.
+- Users can select their hand span size through a simple graphical user interface.
 
-**Model Prediction**
-The HMM model can predict the fingerings for the inputted score. 
+## Model Prediction
+- The model will suggest fingerings for each note played in real-time.
 
-**Program Output**
-Output 1:  The suggested finger number will be exported in TSV format. 
-Output 2:  If the input is in MusicXML, the program will also support previewing the finger-annotated piano score and exporting the annotated score in MXL format.  
+## Program Output
+1. **Output 1:** The suggested finger number will be exported in TSV format.
+2. **Output 2:** Based on HMM’s model, the program will also support providing the finger-annotated piano scores and exporting the annotated score in XML format.
