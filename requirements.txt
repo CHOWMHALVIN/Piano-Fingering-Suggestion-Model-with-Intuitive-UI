@@ -1,0 +1,9 @@
+pandas==1.5.3
+numpy==1.24.2
+tqdm==4.64.1
+scikit-learn==1.2.2    # For train-test splitting
+music21==6.7.1         # For music scores analysis and processing
+gradio==3.23.0         # For creating the user interface
+verovio==5.1.0         # For rendering and working with music notation
+
+# pip install -r requirements.txt
