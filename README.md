@@ -1,3 +1,6 @@
+## DEMO VIDEO
+https://github.com/user-attachments/assets/3b51af42-46fa-4e86-a1c6-b7d5fd78eb14
+
 ## Objectives
 The HMM system demonstrated its effectiveness in capturing common fingering patterns by initial testing on piano scales and comprehensive testing on the PIG dataset. It shows robustness in handling monophonic phrases with single-note segments. Nevertheless, the need for improvement on advanced piano pieces was highlighted.
 
