@@ -12,7 +12,7 @@ This project shows the feasibility of solving the piano fingering problem using 
 - Users can input piano pieces in MIDI (.mid) or MusicXML (.xml) format.
   - **Why MIDI:** For interfacing with electronic musical instruments.
   - **Why MusicXML:** Mainly for rendering the score into production virtually.
-- Users can select their hand span size through a simple graphical user interface.
+- Users can select their hand span size through a simple graphical user interface. (NOTE: This is in experimental stage, its not functioning well yet.)
 
 ## Model Prediction
 - The model will suggest fingerings for each note played in real-time.
